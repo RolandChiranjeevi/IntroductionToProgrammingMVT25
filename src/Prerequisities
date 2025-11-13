@@ -1,0 +1,23 @@
+Program to count number of words and character that a user inputs until the word 'Stop' is written.
+
+* Count number of words written, or rows.
+* Count number of characters that has been written.
+* The program should shutdown when the user inputs 'Stop'. The word itself should not be accounted for.
+* The program itself should contain two classes.
+* One class to take in text and to type out text to the user.
+* One class to count the words and characters.
+* The control to keep track if the user has inputted the word 'Stop' can be done in any of the classes.
+* The program should write out the words that has been inputted with a blankspace between the words.
+* The program should showcase the longest word that has been inputted. In case of it having multiple words that are the same length, only the first one will show.
+* The control of which the user has typed 'Stop' or not, must be in the logic-class.
+
+The program should be tested automatically with atleast three (3) different test cases.
+The test cases should be written in Junit.
+
+The test cases should cover these cases:
+* testAppShutsDownWhenUserTypesStop         -The program should stop when the word 'Stop' is inputted.
+* testAppCountsEveryWordExcludingStop       -The program should count each word/row excluding the word 'Stop'.
+* testAppCountEachCharacter                 -The program should count each character.
+* testAppWritesOutLongestWord               -The program should write out the longest word that has been typed out.
+* testAppWritesOnlyFirstLongestWord         -The program should write out only the first longest word.
+* testAppWritesOutEveryWordWithBlankspace   -The program should write out each and every word with a blankspace between each word.
