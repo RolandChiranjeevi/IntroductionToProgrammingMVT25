@@ -1,0 +1,44 @@
+Objekt:
+Ett objekt är kodens sätt att möjliggöra beskrivningar av något. Till exempel så finns det inget färdig mall för vad som behövs för att beskriva en hund.
+Vi vill kanske veta ålder, ras,  längd, höftledsbetyg och om den är levande. Genom att skapa ett objekt med olika attribut så kan vi lätt skapa ett hundobjekt.
+Detta gör vi genom att ange KlassHund hundObjekt = new KlassHund();
+
+
+Konstruktor:
+En konstruktor är en speciell typ av metod i en klass som används för att skapa och ge startvärden till nya objekt av den klassen.
+Den har samma namn som klassen och returnerar ingenting.
+
+(Lite fel ordning här egentligen.)
+Men nedan exempel så vill vi att ett nytt objekt av hund ska ha vissa givna startvärden som nämns nedan.
+En konstruktor hjälper till att hålla rätt på det.
+
+
+Attribut:
+Ett objekt kan ha flera attribut och sammanfattas enklast som beskrivningar av ett objekt.
+Till exempel så kan en hund ha flera olika attribut men JAVA har ingen inbyggd för hundar så då får vi skapa oss olika attribut.
+Såsom:
+* String ras = "Australian shephard";
+* double längd = 25.3;
+* int ålder = 5;
+* char höftled = a;
+* boolean levande = true;
+
+Versionshantering:
+Med versionshantering så menas att vi säkerställer att vi har kontroll över alla de ändringar vi gör med koden.
+Istället för att bara blint lägga in ny kod utan någon som helst kontroll, så finns exempelvis Git som hjälpmedel.
+Där får vi kontroll över vad som ändras, och när. För utan denna kontroll så ökar problemen med att felsöka.
+Vi vill inte ha heller konflikter i koden.
+
+När utvecklarna, eller testarna, ska göra en ny funktion, bugrättning eller annat så skapar dom en branch.
+När dom är klar med sin kod så skapar dom en pull request och en code review bör göras.
+Som säger att nu vill vi lägga in vår nya kod här. När den godkänns av någon annan så ska det skapas en commit.
+Som är att nu ska koden läggas upp till git hub och när det blivit godkänd så blir den pushad till den branch som är main.
+
+Versionshantering blir också viktigt om någon blir totalt galet så är det lätt att göra en rollback till en tidigare version som bevisat fungerat.
+För att inte störa slutanvändarna allt för mycket.
+
+Utvecklingsprocessen TDD (Test-driven-development)
+I TDD så skriver vi enhetstesterna först för att sedan skriva kod som testas mot vårt enhetstest. Vi gör om koden för att den ska bli bättre, samma med våra tester.
+Flödet är "Enhetstest" skrivs, vi kör testet som failar.
+Vi skriver vår programkod och kör testet igen och testet ska godkännas denna gång.
+Vi skriver om vår programkod, även kallad refactoring, för att förfinas, förbättras men samtidigt ska testet fortsatt blir grönt.

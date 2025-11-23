@@ -15,9 +15,9 @@ The program should be tested automatically with atleast three (3) different test
 The test cases should be written in Junit.
 
 The test cases should cover these cases:
-* testAppShutsDownWhenUserTypesStop         -The program should stop when the word 'Stop' is inputted.
-* testAppCountsEveryWordExcludingStop       -The program should count each word/row excluding the word 'Stop'.
-* testAppCountEachCharacter                 -The program should count each character.
-* testAppWritesOutLongestWord               -The program should write out the longest word that has been typed out.
-* testAppWritesOnlyFirstLongestWord         -The program should write out only the first longest word.
-* testAppWritesOutEveryWordWithBlankspace   -The program should write out each and every word with a blankspace between each word.
+* testAppShutsDownWhenUserTypesStop             -The program should stop when the word 'Stop' is inputted.
+* testAppCountsEveryWordExcludingStop           -The program should count each word/row excluding the word 'Stop'.
+* testAppOnlyCountLetters                       -The program should count each character.
+* testAppWritesOutLongestWord                   -The program should write out the longest word that has been typed out.
+* testAppWritesOnlyValidWords                   -The program should write out only the first longest word.
+* testAppWritesOutEveryWordWithBlankspace       -The program should write out each and every word with a blankspace between each word.
